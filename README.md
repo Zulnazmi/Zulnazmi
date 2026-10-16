@@ -7,7 +7,7 @@
 - Writing security tools in Python to understand how common scanners work under the hood
 - Clear technical documentation and reporting, since findings only matter if they can be communicated
 
-## Final Year Project: AmanahTrack
+## Final Year Project: [AmanahTrack](https://github.com/Zulnazmi/amanahtrack)
 A donation integrity platform for mosques, built around a Raspberry Pi 5 smart donation box. It records donations in a **tamper-evident SHA-256 hash-chain ledger**, enforces Shariah fund-spending rules, and lets a committee review photo-backed alerts and verify evidence in a mobile app.
 
 - **Tamper detection:** any edit to a ledger entry, alert, or evidence photo is detected and traced to the exact entry
