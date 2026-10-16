@@ -22,8 +22,9 @@ A donation integrity platform for mosques, built around a Raspberry Pi 5 smart d
 |---|---|
 | [port-scanner](https://github.com/Zulnazmi/port-scanner) | Multithreaded TCP port scanner with service detection and banner grabbing |
 | [dir-enum](https://github.com/Zulnazmi/dir-enum) | Web directory/file enumerator with soft-404 detection and redirect reporting |
+| [log-analyzer](https://github.com/Zulnazmi/log-analyzer) | Defensive SSH auth-log analyzer that detects brute force, password spraying, and possible compromise |
 
-Both are dependency-free Python, include unit tests, and are documented with usage and limitations.
+All three are dependency-free Python, include unit tests, and are documented with usage and limitations.
 
 ## Tech
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
