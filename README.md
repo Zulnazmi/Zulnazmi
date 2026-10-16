@@ -7,7 +7,17 @@
 - Writing security tools in Python to understand how common scanners work under the hood
 - Clear technical documentation and reporting, since findings only matter if they can be communicated
 
-## Projects
+## Final Year Project: AmanahTrack
+A donation integrity platform for mosques, built around a Raspberry Pi 5 smart donation box. It records donations in a **tamper-evident SHA-256 hash-chain ledger**, enforces Shariah fund-spending rules, and lets a committee review photo-backed alerts and verify evidence in a mobile app.
+
+- **Tamper detection:** any edit to a ledger entry, alert, or evidence photo is detected and traced to the exact entry
+- **Signed device messaging:** the box signs events with HMAC-SHA256; the server re-verifies signatures and photo hashes
+- **Access control:** JWT auth, four roles, per-institution data isolation, and separation of duties
+- **Stack:** Python, FastAPI, SQLAlchemy, React Native (Expo), Raspberry Pi 5
+- **Testing:** 37 automated tests, including tamper and cross-tenant access cases
+- **Status:** backend and mobile app complete; box readings are simulated in the demo, and live sensor streaming is in progress
+
+## Security Tools
 | Project | What it does |
 |---|---|
 | [port-scanner](https://github.com/Zulnazmi/port-scanner) | Multithreaded TCP port scanner with service detection and banner grabbing |
